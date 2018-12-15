@@ -12,6 +12,7 @@
 		9C05F8D021C1DF6300595D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C05F8CE21C1DF6300595D40 /* LaunchScreen.storyboard */; };
 		9C05F8D821C206AF00595D40 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C05F8D721C206AF00595D40 /* EmojiViewController.swift */; };
 		9C82B79F21C49ECD001CE5B0 /* BigEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B79E21C49ECD001CE5B0 /* BigEmojiViewController.swift */; };
+		9C82B7A121C58AFE001CE5B0 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B7A021C58AFE001CE5B0 /* CustomAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9C05F8D121C1DF6300595D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C05F8D721C206AF00595D40 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 		9C82B79E21C49ECD001CE5B0 /* BigEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigEmojiViewController.swift; sourceTree = "<group>"; };
+		9C82B7A021C58AFE001CE5B0 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9C05F8C521C1DF6200595D40 /* AppDelegate.swift */,
 				9C05F8D721C206AF00595D40 /* EmojiViewController.swift */,
 				9C82B79E21C49ECD001CE5B0 /* BigEmojiViewController.swift */,
+				9C82B7A021C58AFE001CE5B0 /* CustomAnimation.swift */,
 				9C05F8CC21C1DF6300595D40 /* Assets.xcassets */,
 				9C05F8CE21C1DF6300595D40 /* LaunchScreen.storyboard */,
 				9C05F8D121C1DF6300595D40 /* Info.plist */,
@@ -137,6 +140,7 @@
 				9C05F8C621C1DF6200595D40 /* AppDelegate.swift in Sources */,
 				9C82B79F21C49ECD001CE5B0 /* BigEmojiViewController.swift in Sources */,
 				9C05F8D821C206AF00595D40 /* EmojiViewController.swift in Sources */,
+				9C82B7A121C58AFE001CE5B0 /* CustomAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,9 @@ private let reuseId = "Cell"
 
 class EmojiViewController: UICollectionViewController {
 
+  // for custom animation
+  var selectedEmojiFrame: CGRect?
+
   init() {
     super.init(collectionViewLayout: UICollectionViewFlowLayout())
   }
@@ -31,6 +34,8 @@ class EmojiViewController: UICollectionViewController {
   }
 
   private let emojis = (0x1F601...0x1F64F).map { String(UnicodeScalar($0)!) }
+
+  private let emojiTransitioningDelegate = EmojiTransitioningDelegate()
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -68,6 +73,14 @@ extension EmojiViewController {
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let emoji = emojis[indexPath.row]
     let bigEmojiVC = BigEmojiViewController(emoji: emoji)
+
+    // store frame of emoji in coordinate system of view controller's view
+    if let cell = collectionView.cellForItem(at: indexPath) {
+      let label = (cell as! EmojiCollectionViewCell).label
+      selectedEmojiFrame = label.convert(label.bounds, to: view)
+    }
+
+    bigEmojiVC.transitioningDelegate = emojiTransitioningDelegate
     present(bigEmojiVC, animated: true, completion: nil)
   }
 

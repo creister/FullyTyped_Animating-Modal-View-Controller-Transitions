@@ -10,6 +10,8 @@ import UIKit
 
 class BigEmojiViewController: UIViewController {
 
+  let label = UILabel()
+
   private let emoji: String
 
   init(emoji: String) {
@@ -23,11 +25,11 @@ class BigEmojiViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    print(#function)
 
     view.backgroundColor = .black
 
     // Display the emoji at a large size in the center of the view!
-    let label = UILabel()
     label.font = .systemFont(ofSize: 200)
     label.text = emoji
     view.addSubview(label)
