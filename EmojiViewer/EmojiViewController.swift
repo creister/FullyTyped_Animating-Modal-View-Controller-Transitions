@@ -67,7 +67,8 @@ extension EmojiViewController {
 
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let emoji = emojis[indexPath.row]
-    print("TODO: present emoji detail with: \(emoji)")
+    let bigEmojiVC = BigEmojiViewController(emoji: emoji)
+    present(bigEmojiVC, animated: true, completion: nil)
   }
 
 }

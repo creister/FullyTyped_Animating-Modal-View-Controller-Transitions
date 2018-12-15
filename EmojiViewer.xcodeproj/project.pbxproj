@@ -11,6 +11,7 @@
 		9C05F8CD21C1DF6300595D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C05F8CC21C1DF6300595D40 /* Assets.xcassets */; };
 		9C05F8D021C1DF6300595D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C05F8CE21C1DF6300595D40 /* LaunchScreen.storyboard */; };
 		9C05F8D821C206AF00595D40 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C05F8D721C206AF00595D40 /* EmojiViewController.swift */; };
+		9C82B79F21C49ECD001CE5B0 /* BigEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B79E21C49ECD001CE5B0 /* BigEmojiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9C05F8CF21C1DF6300595D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C05F8D121C1DF6300595D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C05F8D721C206AF00595D40 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		9C82B79E21C49ECD001CE5B0 /* BigEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigEmojiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				9C05F8C521C1DF6200595D40 /* AppDelegate.swift */,
 				9C05F8D721C206AF00595D40 /* EmojiViewController.swift */,
+				9C82B79E21C49ECD001CE5B0 /* BigEmojiViewController.swift */,
 				9C05F8CC21C1DF6300595D40 /* Assets.xcassets */,
 				9C05F8CE21C1DF6300595D40 /* LaunchScreen.storyboard */,
 				9C05F8D121C1DF6300595D40 /* Info.plist */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C05F8C621C1DF6200595D40 /* AppDelegate.swift in Sources */,
+				9C82B79F21C49ECD001CE5B0 /* BigEmojiViewController.swift in Sources */,
 				9C05F8D821C206AF00595D40 /* EmojiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
